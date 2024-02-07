@@ -1,0 +1,85 @@
+/* Estilos para a aplicação */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-comment {
+  margin-top: 20px;
+}
+
+.add-comment textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.add-comment button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.add-comment button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para o componente CommentList */
+.comment-list {
+  margin-top: 20px;
+}
+
+/* Estilos para o componente Comment */
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.comment p {
+  margin: 0;
+}
+
+.comment p strong {
+  font-weight: bold;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+}
